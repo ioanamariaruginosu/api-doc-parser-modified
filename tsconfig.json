@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    /* Type checking */
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    /* Modules */
+    "module": "NodeNext",
+    "noUncheckedSideEffectImports": true,
+    "types": [],
+
+    /* Language and Environment */
+    "lib": ["ES2022", "DOM"],
+    "moduleDetection": "force",
+    "target": "ES2022",
+
+    /* Output Formatting */
+    "noErrorTruncation": true,
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "outDir": "lib",
+    "sourceMap": true,
+
+    /* Interop Constraints */
+    "erasableSyntaxOnly": true,
+    "isolatedDeclarations": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["./src"]
+}
